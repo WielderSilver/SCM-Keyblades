@@ -26,7 +26,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
 
     public static final Item KINGDOM_KEY = registerItem("kingdom_key",
-            new KeybladeItem(ModKeybladeMaterials.TIER1, 5, 2f, new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
+            new KeybladeItem(ModKeybladeMaterials.TIER1, 3, 1f, new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
 
 
     private static Item registerItem(String name, Item item){
