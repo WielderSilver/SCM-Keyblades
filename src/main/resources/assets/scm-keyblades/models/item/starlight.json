@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "scm-keyblades:item/kingdom_key"
+    "layer0": "scm-keyblades:item/starlight"
   }
 }

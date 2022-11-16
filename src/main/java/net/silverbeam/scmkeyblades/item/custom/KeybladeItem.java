@@ -22,7 +22,7 @@ public class KeybladeItem extends ToolItem implements Vanishable {
     private final float attackDamage;
     private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
-    public KeybladeItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
+    public KeybladeItem(ToolMaterial toolMaterial, float attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, settings);
         this.attackDamage = (float)attackDamage + toolMaterial.getAttackDamage();
         Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
@@ -57,7 +57,11 @@ public class KeybladeItem extends ToolItem implements Vanishable {
         stack.damage(1, attacker, (e) -> {
             e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
         });
-        return true;
+        attacker.setVelocity(0,0.5,0);
+        target.setVelocity(0,0.5,0);
+        attacker.velocityModified = true;
+        target.velocityModified = true;
+        return super.postHit(stack, target, attacker);
     }
 
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
