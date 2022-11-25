@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "#",
+    "H"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "H": {
+      "item":"minecraft:honey_block"
+    },
+    "#": {
+      "item":"scm-keyblades:mythril_shard"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:sweet_memories_blade"
+  }
+}

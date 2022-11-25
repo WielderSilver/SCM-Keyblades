@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    "#E ",
+    "S  "
+  ],
+  "key": {
+    "#": {
+      "item":"minecraft:obsidian"
+    },
+    "S": {
+      "item":"minecraft:stick"
+    },
+    "E": {
+      "item":"minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:soul_eater"
+  }
+}

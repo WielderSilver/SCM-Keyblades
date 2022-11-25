@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":"minecraft:gold_ingot"
+    },
+    "L": {
+      "item":"minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:kingdom_key_handle"
+  }
+}

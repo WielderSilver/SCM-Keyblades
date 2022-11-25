@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$",
+    "L",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item":"scm-keyblades:starlight_handle"
+    },
+    "L": {
+      "item":"scm-keyblades:starlight_blade"
+    },
+    "$": {
+      "item":"scm-keyblades:starlight_point"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:starlight"
+  }
+}

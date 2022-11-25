@@ -24,8 +24,15 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
     public static final Item STARLIGHT_HANDLE = registerItem("starlight_handle",
             new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
+    public static final Item SWEET_MEMORIES_POINT = registerItem("sweet_memories_point",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
+    public static final Item SWEET_MEMORIES_BLADE = registerItem("sweet_memories_blade",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
+    public static final Item SWEET_MEMORIES_HANDLE = registerItem("sweet_memories_handle",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
 
-    //attackSpeed is set to -2f as tools normally have 4 attack speed as that is the players empty handed attack speed.
+
+    //attackSpeed is set to -2f because tools normally have 4 attack speed as that is the players empty handed attack speed.
     public static final Item KINGDOM_KEY = registerItem("kingdom_key",
             new KeybladeItem(ModKeybladeMaterials.TIER1, 5, -2f, new FabricItemSettings().group(ModItemGroup.SCM_KEYBLADES)));
     public static final Item STARLIGHT = registerItem("starlight",

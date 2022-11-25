@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "scm-keyblades:block/deepslate_mythril_ore"
+  }
+}

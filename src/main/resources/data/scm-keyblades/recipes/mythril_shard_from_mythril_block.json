@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "scm-keyblades",
+  "ingredients": [
+    {
+      "item": "scm-keyblades:mythril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "scm-keyblades:mythril_shard"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "H": {
+      "item":"minecraft:honey_block"
+    },
+    "L": {
+      "item":"minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:sweet_memories_handle"
+  }
+}

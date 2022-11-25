@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scm-keyblades:mythril_ore",
+    "scm-keyblades:deepslate_mythril_ore",
+    "scm-keyblades:mythril_block"
+  ]
+}

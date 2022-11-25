@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$",
+    "L",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item":"scm-keyblades:kingdom_key_handle"
+    },
+    "L": {
+      "item":"scm-keyblades:kingdom_key_blade"
+    },
+    "$": {
+      "item":"scm-keyblades:kingdom_key_point"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:kingdom_key"
+  }
+}

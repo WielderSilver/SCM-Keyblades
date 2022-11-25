@@ -5,12 +5,18 @@
   "item.scm-keyblades.starlight_point": "Starlight Point",
   "item.scm-keyblades.kingdom_key_point": "Kingdom Key Point",
   "item.scm-keyblades.kingdom_key_handle": "Kingdom Key Handle",
-  "item.scm-keyblades.kingdom_key_blade": "Kingdom Key Blade",
+  "item.scm-keyblades.sweet_memories_handle": "Sweet Memories Handle",
+  "item.scm-keyblades.sweet_memories_blade": "Sweet Memories Blade",
+  "item.scm-keyblades.sweet_memories_point": "Sweet Memories Point",
 
   "item.scm-keyblades.kingdom_key": "Kingdom Key",
   "item.scm-keyblades.starlight": "Starlight",
   "item.scm-keyblades.soul_eater": "Soul Eater",
   "item.scm-keyblades.sweet_memories": "Sweet Memories",
+
+  "block.scm-keyblades.mythril_ore": "Mythril Ore",
+  "block.scm-keyblades.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.scm-keyblades.mythril_block": "Mythril Block",
 
   "itemGroup.scm-keyblades.scmkeyblades": "SCM Keyblades Tab"
 

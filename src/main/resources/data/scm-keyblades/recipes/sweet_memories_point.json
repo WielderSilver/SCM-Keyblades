@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #H",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "H": {
+      "item":"minecraft:bee_nest"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:sweet_memories_point"
+  }
+}

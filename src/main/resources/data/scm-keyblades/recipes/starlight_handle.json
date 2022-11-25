@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item":"scm-keyblades:mythril_shard"
+    },
+    "L": {
+      "item":"minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:starlight_handle"
+  }
+}

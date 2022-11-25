@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "$",
+    "L",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item":"scm-keyblades:sweet_memories_handle"
+    },
+    "L": {
+      "item":"scm-keyblades:sweet_memories_blade"
+    },
+    "$": {
+      "item":"scm-keyblades:sweet_memories_point"
+    }
+  },
+  "result": {
+    "item": "scm-keyblades:sweet_memories"
+  }
+}
