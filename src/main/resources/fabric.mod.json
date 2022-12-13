@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "scm-keyblades",
-  "version": "${version}",
+  "version": "0.0.3",
 
   "name": "SCM Keyblades",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A mod that aims to add keyblades to Minecraft, while maintaining the look and feel of Minecraft.",
   "authors": [
     "Silverbeam & Happyfrozenfire"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/keyblades-scm",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/scm-keyblades/icon.png",
 
   "environment": "*",
   "entrypoints": {
